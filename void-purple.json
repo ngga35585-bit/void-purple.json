@@ -1,0 +1,148 @@
+// theme.json — paste in Revenge Theme Loader
+// or load via Scripts plugin as raw JSON theme
+
+{
+  "name": "Void Purple",
+  "description": "Full black base, deep purple accents — clean, sharp, no cap.",
+  "version": "1.0.0",
+  "authors": [{ "name": "makktubb" }],
+  "theme": {
+    "semanticColors": {
+
+      /* ── BACKGROUNDS ── */
+      "BACKGROUND_PRIMARY":          ["#000000", "#000000"],
+      "BACKGROUND_SECONDARY":        ["#080808", "#080808"],
+      "BACKGROUND_SECONDARY_ALT":    ["#0d0d0d", "#0d0d0d"],
+      "BACKGROUND_TERTIARY":         ["#0a0a0a", "#0a0a0a"],
+      "BACKGROUND_ACCENT":           ["#6b21a8", "#6b21a8"],
+      "BACKGROUND_FLOATING":         ["#0d0d0d", "#0d0d0d"],
+      "BACKGROUND_MOBILE_PRIMARY":   ["#000000", "#000000"],
+      "BACKGROUND_MOBILE_SECONDARY": ["#080808", "#080808"],
+      "BACKGROUND_MODIFIER_HOVER":   ["#3b0764", "#3b0764"],
+      "BACKGROUND_MODIFIER_ACTIVE":  ["#4c0a91", "#4c0a91"],
+      "BACKGROUND_MODIFIER_SELECTED":["#3b076466", "#3b076466"],
+      "BACKGROUND_MODIFIER_ACCENT":  ["#1a003a", "#1a003a"],
+
+      /* ── CHANNEL TEXT AREA (input box) ── */
+      "CHANNELTEXTAREA_BACKGROUND":  ["#0a0a0a", "#0a0a0a"],
+
+      /* ── TEXT ── */
+      "TEXT_NORMAL":                 ["#e9d5ff", "#e9d5ff"],
+      "TEXT_MUTED":                  ["#7c3aed", "#7c3aed"],
+      "TEXT_LINK":                   ["#c084fc", "#c084fc"],
+      "TEXT_POSITIVE":               ["#a78bfa", "#a78bfa"],
+      "TEXT_WARNING":                ["#d8b4fe", "#d8b4fe"],
+      "TEXT_DANGER":                 ["#f0abfc", "#f0abfc"],
+      "HEADER_PRIMARY":              ["#f3e8ff", "#f3e8ff"],
+      "HEADER_SECONDARY":            ["#c084fc", "#c084fc"],
+
+      /* ── INTERACTIVE ── */
+      "INTERACTIVE_NORMAL":          ["#c084fc", "#c084fc"],
+      "INTERACTIVE_HOVER":           ["#e9d5ff", "#e9d5ff"],
+      "INTERACTIVE_ACTIVE":          ["#f3e8ff", "#f3e8ff"],
+      "INTERACTIVE_MUTED":           ["#4c1d95", "#4c1d95"],
+
+      /* ── MESSAGES ── */
+      "MESSAGE_PREVIEW_COLOR":       ["#c084fc", "#c084fc"],
+      "MENTION_FOREGROUND":          ["#f3e8ff", "#f3e8ff"],
+      "MENTION_BACKGROUND":          ["#6b21a822", "#6b21a822"],
+
+      /* ── STATUS DOTS ── */
+      "STATUS_POSITIVE_BACKGROUND":  ["#7c3aed", "#7c3aed"],
+      "STATUS_POSITIVE_TEXT":        ["#f3e8ff", "#f3e8ff"],
+      "STATUS_WARNING_BACKGROUND":   ["#5b21b6", "#5b21b6"],
+      "STATUS_DANGER_BACKGROUND":    ["#9333ea", "#9333ea"],
+
+      /* ── SCROLLBAR ── */
+      "SCROLLBAR_THIN_THUMB":        ["#7c3aed88", "#7c3aed88"],
+      "SCROLLBAR_THIN_TRACK":        ["#00000000", "#00000000"],
+      "SCROLLBAR_AUTO_THUMB":        ["#7c3aed88", "#7c3aed88"],
+      "SCROLLBAR_AUTO_TRACK":        ["#00000000", "#00000000"],
+
+      /* ── SEPARATORS & BORDERS ── */
+      "BACKGROUND_TRANSPARENT":      ["#00000000", "#00000000"],
+      "ELEVATION_LOW":               ["#1a003a", "#1a003a"],
+      "ELEVATION_MEDIUM":            ["#1a003a", "#1a003a"],
+      "ELEVATION_HIGH":              ["#0d0d0d", "#0d0d0d"],
+
+      /* ── BUTTONS ── */
+      "BUTTON_POSITIVE_BACKGROUND":        ["#6b21a8", "#6b21a8"],
+      "BUTTON_POSITIVE_BACKGROUND_HOVER":  ["#7c3aed", "#7c3aed"],
+      "BUTTON_POSITIVE_BACKGROUND_ACTIVE": ["#9333ea", "#9333ea"],
+      "BUTTON_DANGER_BACKGROUND":          ["#4c1d95", "#4c1d95"],
+      "BUTTON_SECONDARY_BACKGROUND":       ["#1a003a", "#1a003a"],
+      "BUTTON_OUTLINE_BRAND_BORDER":       ["#7c3aed", "#7c3aed"],
+      "BUTTON_OUTLINE_BRAND_TEXT":         ["#c084fc", "#c084fc"],
+
+      /* ── BRAND ── */
+      "BRAND_500":  ["#7c3aed", "#7c3aed"],
+      "BRAND_360":  ["#c084fc", "#c084fc"],
+      "BRAND_600":  ["#6b21a8", "#6b21a8"],
+      "BRAND_NEW":  ["#7c3aed", "#7c3aed"],
+
+      /* ── REACTIONS ── */
+      "REACTION_BACKGROUND":              ["#1a003a", "#1a003a"],
+      "REACTION_BACKGROUND_ME":           ["#6b21a8", "#6b21a8"],
+      "REACTION_BACKGROUND_HOVER":        ["#3b0764", "#3b0764"],
+      "REACTION_BACKGROUND_ME_HOVER":     ["#7c3aed", "#7c3aed"],
+
+      /* ── INPUT ── */
+      "INPUT_BACKGROUND":     ["#0a0a0a", "#0a0a0a"],
+      "INPUT_PLACEHOLDER_TEXT":["#4c1d95", "#4c1d95"],
+
+      /* ── MISC OVERLAYS ── */
+      "MODAL_BACKGROUND":     ["#000000", "#000000"],
+      "OVERLAY_ALPHA_150":    ["#000000cc", "#000000cc"],
+      "TOAST_BG":             ["#0d0d0d", "#0d0d0d"],
+      "FOCUS_PRIMARY":        ["#7c3aed", "#7c3aed"],
+      "ANDROID_NAVIGATION_BAR_BACKGROUND": ["#000000", "#000000"],
+      "ANDROID_RIPPLE":       ["#7c3aed33", "#7c3aed33"]
+    },
+
+    "rawColors": {
+      "PRIMARY_100":  "#f3e8ff",
+      "PRIMARY_130":  "#e9d5ff",
+      "PRIMARY_160":  "#d8b4fe",
+      "PRIMARY_200":  "#c084fc",
+      "PRIMARY_230":  "#a855f7",
+      "PRIMARY_260":  "#9333ea",
+      "PRIMARY_300":  "#7c3aed",
+      "PRIMARY_330":  "#6d28d9",
+      "PRIMARY_360":  "#5b21b6",
+      "PRIMARY_400":  "#4c1d95",
+      "PRIMARY_430":  "#3b0764",
+      "PRIMARY_460":  "#2e0052",
+      "PRIMARY_500":  "#1a003a",
+      "PRIMARY_530":  "#0d001f",
+      "PRIMARY_560":  "#080010",
+      "PRIMARY_600":  "#040008",
+      "PRIMARY_630":  "#020005",
+      "PRIMARY_645":  "#010003",
+      "PRIMARY_660":  "#000000",
+      "PRIMARY_700":  "#000000",
+      "PRIMARY_730":  "#000000",
+      "PRIMARY_800":  "#000000",
+      "PRIMARY_830":  "#000000",
+      "PRIMARY_860":  "#000000",
+      "PRIMARY_900":  "#000000",
+      "BRAND_100":    "#f3e8ff",
+      "BRAND_200":    "#c084fc",
+      "BRAND_300":    "#a855f7",
+      "BRAND_360":    "#9333ea",
+      "BRAND_400":    "#7c3aed",
+      "BRAND_430":    "#6d28d9",
+      "BRAND_460":    "#5b21b6",
+      "BRAND_500":    "#7c3aed",
+      "BRAND_530":    "#6b21a8",
+      "BRAND_560":    "#581c87",
+      "BRAND_600":    "#4c1d95",
+      "BRAND_630":    "#3b0764",
+      "BRAND_700":    "#1a003a",
+      "WHITE":        "#f3e8ff",
+      "BLACK":        "#000000",
+      "STATUS_GREEN_600": "#7c3aed",
+      "STATUS_YELLOW_600": "#a855f7",
+      "STATUS_RED_600":   "#9333ea"
+    }
+  }
+    }
